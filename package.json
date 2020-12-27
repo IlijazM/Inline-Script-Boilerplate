@@ -1,24 +1,16 @@
 {
-  "name": "inline-script-boilerplate",
+  "name": "dunya-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node .",
-    "generate": "node generate.js",
-    "build": "node build.js"
+    "dev": "dunya pipe dev",
+    "dev-optimized": "dunya pipe dev-ns optimize",
+    "build": "dunya pipe build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IlijazM/Inline-Script-Boilerplate.git"
-  },
-  "author": "IlijazM",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/IlijazM/Inline-Script-Boilerplate/issues"
-  },
-  "homepage": "https://github.com/IlijazM/Inline-Script-Boilerplate#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "dunya": "^0.9.4"
   }
 }

@@ -1,0 +1,10 @@
+<h1>{ foo }</h1>
+
+<div initial-content="no javascript.">{ counter }</div>
+
+<button onclick innerHTML="CLICK ME">
+  {{
+    counter++;
+    state.render();
+  }}
+</button>
