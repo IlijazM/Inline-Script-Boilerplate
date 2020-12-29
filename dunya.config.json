@@ -5,7 +5,7 @@
   "pipes": {
     "dev": {
       "plugins": ["#inline-script", "#sass-support"],
-      "inputDir": "dev-",
+      "inputDir": "dev",
       "outputDir": "docs"
     },
     "dev-ns": {
